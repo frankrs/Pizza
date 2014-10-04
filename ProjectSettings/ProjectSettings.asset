@@ -11,7 +11,7 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: Unity
-  productName: Sample Assets
+  productName: TwoRowsPizza
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -22,7 +22,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   m_ActiveColorSpace: 1
   m_MTRendering: 1
-  m_MobileMTRendering: 0
+  m_MobileMTRendering: 1
   m_UseDX11: 0
   m_Stereoscopic3D: 1
   iosShowActivityIndicatorOnLoading: -1
@@ -64,7 +64,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.unity3d.tester
+  iPhoneBundleIdentifier: com.ViralMarketing.TwoRowsPizza
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: 07a996f3a1fa743948c9913c0cac8a72
@@ -107,6 +107,9 @@ PlayerSettings:
       m_Size: 128
   m_BuildTargetBatching:
   - m_BuildTarget: Web
+    m_StaticBatching: 1
+    m_DynamicBatching: 1
+  - m_BuildTarget: Android
     m_StaticBatching: 1
     m_DynamicBatching: 1
   webPlayerTemplate: APPLICATION:Black Background
@@ -154,10 +157,10 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: CROSS_PLATFORM_INPUT
     2: CROSS_PLATFORM_INPUT
-    4: CROSS_PLATFORM_INPUT
-    7: CROSS_PLATFORM_INPUT
-    15: CROSS_PLATFORM_INPUT
-    16: CROSS_PLATFORM_INPUT
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    15: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    16: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   metroPackageName: Sample-Assets Project
   metroPackageLogo: 
   metroPackageLogo140: 
