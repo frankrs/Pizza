@@ -1345,14 +1345,14 @@ GUITexture:
   m_PrefabInternal: {fileID: 1926615275}
   m_GameObject: {fileID: 397401044}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: 5caa12899bb0c431c9041083b852586f, type: 3}
+  m_Texture: {fileID: 2800000, guid: 1a900ad9c09a25a488004a087a3bafc1, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
-    x: -128
-    y: -32
-    width: 256
-    height: 64
+    x: -64
+    y: -16
+    width: 128
+    height: 32
   m_LeftBorder: 0
   m_RightBorder: 0
   m_TopBorder: 0
@@ -1526,6 +1526,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 454841632}
   - 132: {fileID: 454841631}
+  - 114: {fileID: 454841633}
   m_Layer: 0
   m_Name: PizzaCounter
   m_TagString: Untagged
@@ -1543,8 +1544,8 @@ GUIText:
   serializedVersion: 3
   m_Text: Pizzas
   m_Anchor: 0
-  m_Alignment: 0
-  m_PixelOffset: {x: 0, y: 0}
+  m_Alignment: 2
+  m_PixelOffset: {x: 403.200012, y: 0}
   m_LineSpacing: 1
   m_TabSize: 4
   m_Font: {fileID: 12800000, guid: da5302b4756a5ff45bbd07d859869e40, type: 3}
@@ -1563,11 +1564,26 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 454841630}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .74000001, y: .899999976, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!114 &454841633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 454841630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717485868eaae8548a2688eeea12321f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guiText: {fileID: 454841631}
+  divider: 18
+  screenW: 640
+  offSetPercent: .629999995
 --- !u!1 &504548237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2057,6 +2073,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 731055374}
   - 132: {fileID: 731055373}
+  - 114: {fileID: 731055375}
   m_Layer: 0
   m_Name: Timer
   m_TagString: Untagged
@@ -2075,7 +2092,7 @@ GUIText:
   m_Text: Timer
   m_Anchor: 0
   m_Alignment: 0
-  m_PixelOffset: {x: 0, y: 0}
+  m_PixelOffset: {x: 32, y: 0}
   m_LineSpacing: 1
   m_TabSize: 4
   m_Font: {fileID: 12800000, guid: da5302b4756a5ff45bbd07d859869e40, type: 3}
@@ -2094,11 +2111,26 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 731055372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0799999982, y: .899999976, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
+--- !u!114 &731055375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 731055372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717485868eaae8548a2688eeea12321f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guiText: {fileID: 731055373}
+  divider: 18
+  screenW: 640
+  offSetPercent: .0500000007
 --- !u!1 &736202494
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,14 +2886,14 @@ GUITexture:
   m_PrefabInternal: {fileID: 1926615275}
   m_GameObject: {fileID: 1115618070}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: 65a307bdc44ed4968b6325588449d934, type: 3}
+  m_Texture: {fileID: 2800000, guid: 0b22c6ac7a1cad04898094288886ecb1, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
-    x: -50
-    y: -50
-    width: 100
-    height: 100
+    x: -25
+    y: -25
+    width: 50
+    height: 50
   m_LeftBorder: 0
   m_RightBorder: 0
   m_TopBorder: 0
@@ -5379,6 +5411,46 @@ Prefab:
     - target: {fileID: 400002, guid: dad204f0be9faf44180198af52716979, type: 2}
       propertyPath: m_RootOrder
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 13100002, guid: dad204f0be9faf44180198af52716979, type: 2}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 0b22c6ac7a1cad04898094288886ecb1, type: 3}
+    - target: {fileID: 13100002, guid: dad204f0be9faf44180198af52716979, type: 2}
+      propertyPath: m_PixelInset.width
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 13100002, guid: dad204f0be9faf44180198af52716979, type: 2}
+      propertyPath: m_PixelInset.height
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 13100002, guid: dad204f0be9faf44180198af52716979, type: 2}
+      propertyPath: m_PixelInset.x
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 13100002, guid: dad204f0be9faf44180198af52716979, type: 2}
+      propertyPath: m_PixelInset.y
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 13100000, guid: dad204f0be9faf44180198af52716979, type: 2}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 1a900ad9c09a25a488004a087a3bafc1, type: 3}
+    - target: {fileID: 13100000, guid: dad204f0be9faf44180198af52716979, type: 2}
+      propertyPath: m_PixelInset.width
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 13100000, guid: dad204f0be9faf44180198af52716979, type: 2}
+      propertyPath: m_PixelInset.height
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 13100000, guid: dad204f0be9faf44180198af52716979, type: 2}
+      propertyPath: m_PixelInset.x
+      value: -64
+      objectReference: {fileID: 0}
+    - target: {fileID: 13100000, guid: dad204f0be9faf44180198af52716979, type: 2}
+      propertyPath: m_PixelInset.y
+      value: -16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dad204f0be9faf44180198af52716979, type: 2}
