@@ -31,11 +31,11 @@ Material:
       data:
         first:
           name: _Shininess
-        second: 2.78505301
+        second: 3.17724228
       data:
         first:
           name: _SpecInt
-        second: .109999999
+        second: 1.07000005
       data:
         first:
           name: _Fresnel
@@ -44,7 +44,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .257352948, g: .23514995, b: .215722322, a: 1}
+        second: {r: .274509817, g: .211764708, b: .156862751, a: 1}
       data:
         first:
           name: _SpecColor

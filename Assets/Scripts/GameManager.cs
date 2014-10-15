@@ -17,6 +17,10 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//check for back button to shut down
+		if(Input.GetKeyDown("escape")){
+			Application.Quit();
+		}
 	
 	}
 

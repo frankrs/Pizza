@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BrickOldMixed_512
-  m_Shader: {fileID: 4800000, guid: 857f47563d80247cfa79677a8d496230, type: 3}
+  m_Shader: {fileID: 4800000, guid: 775034211d2a13d47a87b10d0e837ce2, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -27,7 +27,18 @@ Material:
           m_Texture: {fileID: 2800000, guid: 396f4b0c383c320439d2adabf273e7c8, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+      data:
+        first:
+          name: _OccTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 9bf92efb316781745bb088d011bdc43a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _OccStrength
+        second: 1
     m_Colors:
       data:
         first:
