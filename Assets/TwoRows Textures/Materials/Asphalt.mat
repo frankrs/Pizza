@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: LitSighn
-  m_Shader: {fileID: 4800000, guid: 3eb52ec0bedc8724ba21f3c9e546a68a, type: 3}
+  m_Name: Asphalt
+  m_Shader: {fileID: 4800000, guid: 173ea76c55d104a85a85a4a8ebaccf2a, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 808dd514eb603ab4d82a742be2e0358b, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -27,44 +27,25 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _Illum
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Shininess
-        second: 4
+        second: 2.57335424
       data:
         first:
           name: _SpecInt
-        second: .200000003
+        second: .100000001
       data:
         first:
           name: _Fresnel
-        second: .375
-      data:
-        first:
-          name: _EmissionLM
-        second: .310000002
-      data:
-        first:
-          name: _GlowStrength
-        second: -.0500000007
+        second: 0
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .823529422, g: .823529422, b: .823529422, a: 1}
+        second: {r: .588, g: .588, b: .588, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _GlowColor
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .403921574, g: .403921574, b: .403921574, a: 1}
