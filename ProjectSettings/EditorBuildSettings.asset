@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/scenes/StartMenu.unity
   - enabled: 0
     path: Assets/scenes/PizzaPlace2.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/scenes/PizzaPlaceMobile.unity
   - enabled: 0
     path: Assets/scenes/PizzaPlaceAltcontrols.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/scenes/TwoRows1.0.unity

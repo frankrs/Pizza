@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: RedPaint
-  m_Shader: {fileID: 4800000, guid: 173ea76c55d104a85a85a4a8ebaccf2a, type: 3}
+  m_Shader: {fileID: 4800000, guid: 05623b9c7970ab748848f2dacd0bfe31, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
