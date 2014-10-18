@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 
 public class JumpButtonPos : MonoBehaviour {
 
@@ -13,7 +13,7 @@ public class JumpButtonPos : MonoBehaviour {
 	public float size;
 	
 	// Update is called once per frame
-	void Update () {
+	void Awake () {
 		screenW = Screen.width;
 		screenH = Screen.height;
 		guiTexture.pixelInset = new Rect((screenW * offSetPercentW),(screenH * offSetPercentH),screenW*size,screenW*size/2);

@@ -51,10 +51,10 @@ public class GUIMenu : MonoBehaviour {
 
 
 		if(menuPage == MenuPage.won){
-			GUILayout.Box("You Win",boxStyle);
-			if(GUILayout.Button("Prize",buttonStyle)){
-				menuPage = MenuPage.prize;
-			}
+			GUILayout.Box("Show Waiter Your\nDevice to\nCollect Prize",boxStyle);
+//			if(GUILayout.Button("Prize",buttonStyle)){
+//				menuPage = MenuPage.prize;
+//			}
 			if(GUILayout.Button("PlayAgain",buttonStyle)){
 				Time.timeScale = 1.0f;
 				Application.LoadLevel(Application.loadedLevel);
