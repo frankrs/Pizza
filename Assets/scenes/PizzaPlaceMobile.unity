@@ -1359,10 +1359,10 @@ GUITexture:
   m_Color: {r: .5, g: .5, b: .5, a: .607843161}
   m_PixelInset:
     serializedVersion: 2
-    x: 757.76001
+    x: 849.919983
     y: 6
-    width: 215.039993
-    height: 107.519997
+    width: 153.600006
+    height: 76.8000031
   m_LeftBorder: 0
   m_RightBorder: 0
   m_TopBorder: 8
@@ -1395,9 +1395,10 @@ MonoBehaviour:
   guiTexture: {fileID: 347264745}
   screenW: 1024
   screenH: 600
-  offSetPercentW: .74000001
+  offSetPercentW: .829999983
   offSetPercentH: .00999999978
-  size: .209999993
+  size: .150000006
+  button: {fileID: 347264746}
 --- !u!1 &354057955
 GameObject:
   m_ObjectHideFlags: 0
@@ -4471,11 +4472,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 13100000, guid: 2895a5c0c372d0040bbfb82c4588e1ca, type: 2}
       propertyPath: m_PixelInset.width
-      value: 215.039993
+      value: 153.600006
       objectReference: {fileID: 0}
     - target: {fileID: 13100000, guid: 2895a5c0c372d0040bbfb82c4588e1ca, type: 2}
       propertyPath: m_PixelInset.height
-      value: 107.519997
+      value: 76.8000031
       objectReference: {fileID: 0}
     - target: {fileID: 13100000, guid: 2895a5c0c372d0040bbfb82c4588e1ca, type: 2}
       propertyPath: m_PixelInset.y
@@ -4483,7 +4484,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 13100000, guid: 2895a5c0c372d0040bbfb82c4588e1ca, type: 2}
       propertyPath: m_PixelInset.x
-      value: 757.76001
+      value: 849.919983
       objectReference: {fileID: 0}
     - target: {fileID: 13100000, guid: 2895a5c0c372d0040bbfb82c4588e1ca, type: 2}
       propertyPath: m_LeftBorder
@@ -4496,6 +4497,10 @@ Prefab:
     - target: {fileID: 400000, guid: 2895a5c0c372d0040bbfb82c4588e1ca, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 2895a5c0c372d0040bbfb82c4588e1ca, type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2895a5c0c372d0040bbfb82c4588e1ca, type: 2}
