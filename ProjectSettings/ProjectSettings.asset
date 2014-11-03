@@ -97,13 +97,14 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: C:/current progects/Jason Baird Photoscans/Preston's Pizza
+    Game/Assets/mykeystore.keystore
+  AndroidKeyaliasName: tworows pizza
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 0}
+    - m_Icon: {fileID: 2800000, guid: df826a6f64888654c955413400bc43af, type: 3}
       m_Size: 128
   m_BuildTargetBatching:
   - m_BuildTarget: Web
