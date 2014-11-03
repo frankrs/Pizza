@@ -18,8 +18,8 @@ PlayerSettings:
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 1024
   defaultScreenHeightWeb: 576
-  m_RenderingPath: 2
-  m_MobileRenderingPath: 2
+  m_RenderingPath: 1
+  m_MobileRenderingPath: 1
   m_ActiveColorSpace: 0
   m_MTRendering: 1
   m_MobileMTRendering: 1
@@ -68,8 +68,8 @@ PlayerSettings:
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: 07a996f3a1fa743948c9913c0cac8a72
-  iPhoneBundleVersion: 1.0
-  AndroidBundleVersionCode: 1
+  iPhoneBundleVersion: 1.01
+  AndroidBundleVersionCode: 101
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -97,8 +97,7 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: C:/current progects/Jason Baird Photoscans/Preston's Pizza
-    Game/Assets/mykeystore.keystore
+  AndroidKeystoreName: C:/Users/Frank S/Desktop/trp/Pizza/Assets/mykeystore.keystore
   AndroidKeyaliasName: tworows pizza
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
